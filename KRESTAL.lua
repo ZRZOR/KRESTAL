@@ -1189,11 +1189,11 @@ local text = [[
  ]]  storm_sendMsg(msg.chat_id_, msg.id_, 1, text, 1, 'md')  end end end
 if text == 'السورس' or text =='سورس' or text=='يا سورس' then
 local text = [[
-`👋🏻 ¦ اهلا بك عزيزي في سورس سبتي
+👋🏻 ¦ اهلا بك عزيزي في سورس سبتي
 
 💌 ¦ [ قناة السورس ](https://t.me/KAIDOCN)
 
-🎫 ¦ [ مطور السورس ](https://t.me/KAIDOSN)`
+🎫 ¦ [ مطور السورس ](https://t.me/KAIDOSN)
 ]] storm_sendMsg(msg.chat_id_, msg.id_, 1,text, 1, 'md')   end
 if text == 'تفعيل'  and add_in_ch(msg) and is_sudo(msg) then   
 if not is_sudo(msg) then
