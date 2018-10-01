@@ -10,7 +10,7 @@ echo -e "
 \_ \      | |     | | | |  | |_) }   | |\/| |
  _) |     | |     | |_| |  |  _< \   | |  | |
 |__/      |_|      \___/   |_|  \_\  |_|  |_|
- BY @TAHAJ20 DEV : TAHAJ20            "
+          "
 echo -e "" 
 echo -e "" 
 }
@@ -22,5 +22,5 @@ echo ""
 echo ""
 exit 1
 fi
-./tg -s KRESTAL.lua
+./tg -s REBAR.lua
 fi
